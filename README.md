@@ -2,6 +2,10 @@
 
 Movie Search App built using React(Vite) and The Movie Database(TMDB) API.
 
+## UI Screenshot
+
+![UI-Screenshot](./src/UI-Screenshot.png)
+
 ## Topics Covered
 
 - React Components, Props
