@@ -17,11 +17,11 @@ function App() {
   const SEARCH_API =
     'https://api.themoviedb.org/3/search/movie?api_key=_YOUR API KEY_&query="';
 
-  async function getMovies(url) {
+  const getMovies = async (url) => {
     const res = await fetch(url);
     const data = await res.json();
     setData(data.results);
-  }
+  };
 
   useEffect(() => {
     if (!search) {
