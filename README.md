@@ -1,4 +1,4 @@
-## Topics Covered
+## Project Intro
 
 Movie Search App built using React(Vite) and The Movie Database(TMDB) API.
 
